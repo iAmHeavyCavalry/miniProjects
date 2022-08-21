@@ -8,6 +8,7 @@ public class Main {
         while(!password.equals(pass)){
 
             pass = JOptionPane.showInputDialog("Password: ");
+
             if(!password.equals(pass)) {
                 System.out.println("Invalid password. Access denied");
             }
