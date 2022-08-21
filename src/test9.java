@@ -11,7 +11,7 @@ public class test9 {
             rooms[i] = (int) Math.round(Math.random()*100);
         }
         for(int number:rooms){
-            System.out.println(number + " ");
+            System.out.print(number + " ");
         }
     }
 }
